@@ -40,4 +40,4 @@ if __name__ == '__main__':
     }
 
     json_consumer = JsonConsumer(props=config)
-    json_consumer.consume_from_kafka(topics=[KAFKA_TOPIC])
+    json_consumer.consume_from_kafka(topics=[KAFKA_TOPIC]) 
